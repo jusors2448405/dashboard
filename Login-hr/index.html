@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR Dashboard </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <!-- BRAND / LOGO -->
+    <div class="brand">
+      <div class="logo-wrap">
+        <img src="logo.png" class="logo-img" alt="HR Suite Logo">
+      </div>
+      <div class="sidebar-icons">
+        <span>🔔</span>
+        <span>👤</span>
+      </div>
+    </div>
+    <div class="nav">
+      <!-- Recruitment -->
+      <details class="nav-group" open>
+        <summary class="nav-title">Recruitment &amp; Applicants</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Job Posting</a>
+          <a href="#" class="nav-child">Registration</a>
+          <a href="#" class="nav-child">Interview &amp; Selection</a>
+          <a href="#" class="nav-child">Application Database</a>
+          <a href="#" class="nav-child">Resume &amp; Document Tracking</a>
+          <a href="#" class="nav-child">Application Status</a>
+          <a href="#" class="nav-child">Application Archive</a>
+        </div>
+      </details>
+
+      <!-- Onboarding -->
+      <details class="nav-group">
+        <summary class="nav-title">Onboarding &amp; Employee Setup</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Requirements Tracking</a>
+          <a href="#" class="nav-child">Contract Signing</a>
+          <a href="#" class="nav-child">Orientation</a>
+          <a href="#" class="nav-child">Training Assignment</a>
+          <a href="#" class="nav-child">Employee Profile Setup</a>
+        </div>
+      </details>
+
+      <!-- Performance -->
+      <details class="nav-group">
+        <summary class="nav-title">Performance &amp; Recognition</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">KPI Management</a>
+          <a href="#" class="nav-child">Monthly / Quarterly Evaluation</a>
+          <a href="#" class="nav-child">Evaluation Reports</a>
+          <a href="#" class="nav-child">Feedback</a>
+          <a href="#" class="nav-child">Rewards &amp; Incentives</a>
+          <a href="#" class="nav-child">Recognition Events</a>
+          <a href="#" class="nav-child">Public Recognition Board</a>
+        </div>
+      </details>
+
+      <!-- Talent Development -->
+      <details class="nav-group">
+        <summary class="nav-title">Talent Development</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Succession Planning</a>
+          <a href="#" class="nav-child">High Potential Identification</a>
+          <a href="#" class="nav-child">Critical Role Mapping</a>
+          <a href="#" class="nav-child">Training Management</a>
+          <a href="#" class="nav-child">Competency Assessment</a>
+          <a href="#" class="nav-child">Learning Management System</a>
+        </div>
+      </details>
+
+      <!-- Time & Attendance -->
+      <details class="nav-group">
+        <summary class="nav-title">Time &amp; Attendance</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Biometric Logs</a>
+          <a href="#" class="nav-child">Auto Computation (Late, OT, UT)</a>
+          <a href="#" class="nav-child">Daily / Monthly Reports</a>
+          <a href="#" class="nav-child">Shift Scheduling</a>
+          <a href="#" class="nav-child">Calendar View</a>
+        </div>
+      </details>
+
+      <!-- Timesheets & Leave -->
+      <details class="nav-group">
+        <summary class="nav-title">Timesheets &amp; Leave</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Timesheet Summary</a>
+          <a href="#" class="nav-child">Manual Adjustments</a>
+          <a href="#" class="nav-child">Approval Workflow</a>
+          <a href="#" class="nav-child">Leave Filing</a>
+          <a href="#" class="nav-child">Leave Calendar</a>
+          <a href="#" class="nav-child">Leave Credit Tracking</a>
+        </div>
+      </details>
+
+      <!-- Claims -->
+      <details class="nav-group">
+        <summary class="nav-title">Claims &amp; Reimbursements</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Claim Submission</a>
+          <a href="#" class="nav-child">Receipt Upload</a>
+          <a href="#" class="nav-child">Approval Flow</a>
+          <a href="#" class="nav-child">Reimbursement Computation</a>
+        </div>
+      </details>
+
+      <!-- Payroll -->
+      <details class="nav-group">
+        <summary class="nav-title">Payroll &amp; Compensation</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Salary &amp; Allowances</a>
+          <a href="#" class="nav-child">Deductions &amp; Contributions</a>
+          <a href="#" class="nav-child">Payslip Management</a>
+          <a href="#" class="nav-child">Compensation Planning</a>
+          <a href="#" class="nav-child">Salary Benchmarking</a>
+          <a href="#" class="nav-child">Bonuses &amp; Raises</a>
+        </div>
+      </details>
+
+      <!-- Core Human Capital -->
+      <details class="nav-group">
+        <summary class="nav-title">Core Human Capital</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Employee Records</a>
+          <a href="#" class="nav-child">Attendance Records</a>
+          <a href="#" class="nav-child">Leave Records</a>
+          <a href="#" class="nav-child">Benefits Management</a>
+          <a href="#" class="nav-child">Document Repository</a>
+        </div>
+      </details>
+
+      <!-- Analytics -->
+      <details class="nav-group">
+        <summary class="nav-title">HR Analytics &amp; Reports</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Workforce Metrics</a>
+          <a href="#" class="nav-child">Turnover Analysis</a>
+          <a href="#" class="nav-child">Performance Insights</a>
+          <a href="#" class="nav-child">Workforce Planning</a>
+        </div>
+      </details>
+
+      <!-- ESS -->
+      <details class="nav-group">
+        <summary class="nav-title">Employee Self-Service (ESS)</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">Personal Profile</a>
+          <a href="#" class="nav-child">Payslip View</a>
+          <a href="#" class="nav-child">Leave Request</a>
+          <a href="#" class="nav-child">Attendance View</a>
+          <a href="#" class="nav-child">Notifications</a>
+          <a href="#" class="nav-child">Login &amp; Security</a>
+        </div>
+      </details>
+
+      <!-- Settings -->
+      <details class="nav-group">
+        <summary class="nav-title">System Settings</summary>
+        <div class="nav-children">
+          <a href="#" class="nav-child">User Access (Admin View)</a>
+          <a href="#" class="nav-child">Role Permissions</a>
+          <a href="#" class="nav-child">Audit Logs</a>
+        </div>
+      </details>
+    </div>
+
+    <div class="side-footer">
+      <div class="side-foot-line"></div>
+      <div class="side-foot-text">© 2026 HR Suite</div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <header class="topbar">
+      <button class="burger" id="burger" aria-label="Toggle sidebar">☰</button>
+
+      <div class="search-wrapper">
+        <div class="search">
+          <span class="search-ico">🔎</span>
+          <input type="text" placeholder="Search..." />
+        </div>
+      </div>
+
+    </header>
+
+    <section class="dashboard">
+     <h1>Dashboard</h1>
+    </section>
+
+    <footer class="app-footer">
+      <div class="footer-top">
+        <div class="footer-left">
+          <img src="LOGO.png" alt="Logo" class="footer-logo">
+        </div>
+
+        <nav class="footer-nav">
+          <a href="#">HOME</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">SERVICES</a>
+          <a href="#">CONTACTS</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms of use</a>
+        </div>
+
+        <div class="footer-copy">©2025–2026 Costa Cargo</div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    const burger = document.getElementById("burger");
+    const sidebar = document.querySelector(".sidebar");
+
+    // function to toggle sidebar size
+    function toggleSidebar() {
+      document.body.classList.toggle("sidebar-collapsed");
+    }
+
+    // burger button: laging puwedeng mag-toggle
+    burger.addEventListener("click", toggleSidebar);
+
+    // sidebar click: magwo‑work lang kapag EXPANDED
+    sidebar.addEventListener("click", (e) => {
+      // kung collapsed na, huwag na mag-toggle
+      if (document.body.classList.contains("sidebar-collapsed")) return;
+      // iwas mag-trigger kapag links / buttons ang na-click
+      if (e.target.closest("a, button, details, summary")) return;
+      toggleSidebar();
+    });
+  </script>
+</body>
+</html>
+
